@@ -1,8 +1,8 @@
 # Etheys Fashion Feaster — WEBD6211 Part 1
 
 **Student:** Ethel Muofhe  
-**Student Number:** [INSERT STUDENT NUMBER]  
-**Group:** [IF APPLICABLE]  
+**Student Number:** ST10317760  
+**Group:** [01]  
 **Module:** WEBD6211  
 **Academic Year:** 2026  
 
@@ -65,19 +65,17 @@ The website structure is:
 
 The primary navigation links connect the five HTML pages.
 
-## Wireframes
+ Wireframes
 The `wireframes/` folder contains the sitemap and low-fidelity wireframe materials required for planning the website layout and information hierarchy.
 
-## Technical Requirements Identified
-The proposal identifies the planned technical requirements, including HTML, CSS and JavaScript, as requested under the Part 1 technical-requirements section. This package focuses on the HTML foundation required in the Part 1 HTML section.
-
-## Timeline and Milestones
+Technical Requirements Identified
+The proposal identifies the planned technical requirements, including HTML, CSS and JavaScript, as requested under the Part 1 technical-requirements section. This package focuses on the HTML foundation required in the Part 1 HTML section. Timeline and Milestones
 The proposals contain a realistic project timeline and milestones aligned with the Part 1 planning requirements.
 
-## GitHub
+GitHub
 The repository should contain the initial project structure and descriptive commits. The GitHub repository link must be submitted separately as required by the brief.
 
-## Testing and Debugging
+ Testing and Debugging
 Testing is required by Part 1. Before submission, the student should open the five HTML pages in a browser and verify:
 - all navigation links work;
 - images load correctly;
@@ -87,11 +85,11 @@ Testing is required by Part 1. Before submission, the student should open the fi
 
 The testing report in `docs/` should only be treated as final evidence after the student has personally completed the required checks.
 
-## References
+References
 - MDN Web Docs — https://developer.mozilla.org/
 - GitHub Docs — https://docs.github.com/
 
-## Submission Deliverables Represented
+ Submission Deliverables Represented
 This package contains the Part 1 materials shown in the supplied brief:
 - two project proposals;
 - content research and sourcing;

@@ -1,20 +1,20 @@
-# Etheys Fashion Feaster — WEBD6211 Part 1
+Etheys Fashion Feaster — WEBD6211 Part 1
 
-**Student:** Ethel Muofhe  
-**Student Number:** ST10317760  
-**Group:** [01]  
-**Module:** WEBD6211  
-**Academic Year:** 2026  
+Student: Ethel Muofhe  
+Student Number: ST10317760  
+Group: [01]  
+Module: WEBD6211  
+Academic Year: 2026  
 
-## Project Overview
+ Project Overview
 This Part 1 project establishes the foundation for a website. Two different project proposals are included for lecturer approval:
 
-1. **Etheys Fashion Feaster** — a fictional retail/small-business organisation.
-2. **Etheys Community Care** — a fictional non-profit organisation.
+1. Etheys Fashion Feaster — a fictional retail/small-business organisation.
+2. Etheys Community Care — a fictional non-profit organisation.
 
 The final organisation to continue with will be selected after lecturer approval.
 
-## Part 1 Goals
+ Part 1 Goals
 - Plan the website project and identify the target audience.
 - Define website goals and key performance indicators.
 - Research and source appropriate content and assets.
@@ -26,14 +26,14 @@ The final organisation to continue with will be selected after lecturer approval
 - Maintain readable and commented HTML code.
 - Prepare the initial GitHub repository structure and README.
 
-## Website Pages
+ Website Pages
 - `index.html` — Homepage
 - `about.html` — About Us
 - `products.html` — Products/Services
 - `enquiry.html` — Enquiry
 - `contact.html` — Contact
 
-## Project Structure
+Project Structure
 ```text
 .
 ├── index.html
@@ -53,15 +53,15 @@ The final organisation to continue with will be selected after lecturer approval
 
 The `css` and `js` folders are included because the Part 1 brief specifies them in the proposed root-folder structure. No CSS or JavaScript implementation files are included in this Part 1 package.
 
-## Content Research and Sourcing
+ Content Research and Sourcing
 The `content-research/` folder contains the researched organisation content, asset register and research log. The `references/` folder contains image/source documentation.
 
 The `docs/Content-Research-and-Sourcing.zip` file is the compressed research package required by Part 1.
 
-## Sitemap
+ Sitemap
 The website structure is:
 
-**Home → About Us → Products → Enquiry → Contact**
+Home → About Us → Products → Enquiry → Contact**
 
 The primary navigation links connect the five HTML pages.
 
@@ -99,6 +99,4 @@ This package contains the Part 1 materials shown in the supplied brief:
 - five HTML pages;
 - images/assets and source documentation;
 - README;
-- testing/documentation material.
-
-**Important:** Replace `[INSERT STUDENT NUMBER]` and complete group information where applicable before submission.
+- testing/documentation materials

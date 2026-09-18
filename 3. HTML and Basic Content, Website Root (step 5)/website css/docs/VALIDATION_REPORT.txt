@@ -1,0 +1,46 @@
+VALIDATION REPORT — Ethey's Fashion Feaster Part 2
+=================================================
+
+Project: Ethey's Fashion Feaster
+Technology: HTML5 + external CSS3 only (no JavaScript)
+
+Checks completed on 18 September 2026:
+
+1. Required HTML pages
+   PASS — index.html, about.html, products.html, enquiry.html, contact.html and sitemap.html exist.
+
+2. External stylesheet
+   PASS — all six HTML pages link to website/css/style.css.
+
+3. Internal navigation
+   PASS — all local page links resolve to existing HTML files.
+   PASS — shared navigation includes Home, About Us, Products, Enquiry, Contact and Sitemap.
+   PASS — footer links also resolve correctly.
+
+4. Local images
+   PASS — all image src references resolve to files in website/images/.
+   PASS — all srcset image candidates resolve to files in website/images/.
+   PASS — the supplied enquiry-fashion.jpg is stored locally and used by enquiry.html.
+
+5. Responsive-image requirement
+   PASS — responsive images use srcset/sizes; enquiry.html also demonstrates the picture element.
+
+6. CSS requirements
+   PASS — reset/base styles, typography, Grid/Flexbox layout, colour/decorative styling, pseudo-classes and media queries are present in style.css.
+
+7. Responsive design
+   PASS — 900px and 620px breakpoints adjust layout, typography, navigation and images.
+
+8. JavaScript
+   PASS — no JavaScript is included; the project remains HTML + CSS as requested.
+
+9. Documentation
+   PASS — README.md includes project structure, technology, design system, testing, references and GitHub guidance.
+   PASS — website/docs/changelog.txt records Part 1 feedback-related corrections and Part 2 changes.
+   PASS — website/docs/source-log.txt records image and asset sources.
+
+10. Archive integrity
+   PASS — final ZIP archive was tested with unzip -t and contains no archive errors.
+
+Important submission note:
+The rubric's GitHub commit marks depend on the actual remote repository history. The ZIP cannot create or prove GitHub commits. The README and changelog include descriptive commit examples for the repository history.

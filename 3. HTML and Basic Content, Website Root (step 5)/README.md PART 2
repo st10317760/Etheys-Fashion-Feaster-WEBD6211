@@ -1,0 +1,115 @@
+# Ethey's Fashion Feaster — Part 2 Final Website
+
+## Project overview
+Ethey's Fashion Feaster is a fictional Limpopo-based fashion website created for the Web Development (Introduction) academic project. The project uses **HTML5 and an external CSS3 stylesheet only**. No JavaScript is used.
+
+## Part 2 rubric implementation
+This version is structured to address the supplied Part 2 rubric:
+
+- External `website/css/style.css` is linked from all six HTML pages.
+- A CSS reset/base style establishes consistent font, colour, spacing and box sizing.
+- Typography uses font family, responsive `clamp()` sizes, font weights, line-height and letter spacing.
+- CSS Grid and Flexbox are used for page layout, cards, navigation, forms and footer sections.
+- Decorative styling includes colours, borders, shadows, backgrounds and rounded cards.
+- Interactive pseudo-classes include `:hover` and `:focus`.
+- Responsive breakpoints are provided at 900px and 620px.
+- Responsive layout, typography, navigation and images adapt at smaller widths.
+- Responsive images use `srcset`, `sizes` and the `<picture>` element where appropriate.
+- All primary pages link through the shared navigation and footer.
+- A sitemap page documents the site's page hierarchy.
+- A changelog records Part 1 feedback-related and Part 2 development changes.
+- References and image/asset sources are documented below.
+
+## Pages
+1. `website/index.html` — Home
+2. `website/about.html` — About Us
+3. `website/products.html` — Products
+4. `website/enquiry.html` — Enquiry
+5. `website/contact.html` — Contact
+6. `website/sitemap.html` — Sitemap
+
+### Navigation
+The primary navigation is available on every page:
+
+**Home → About Us → Products → Enquiry → Contact → Sitemap**
+
+Each page can return to the other pages through the shared navigation and footer links. All internal links are relative HTML paths so the site can be opened locally after extraction.
+
+## Folder structure
+```text
+Etheys_Fashion_Feaster_READY_TO_SUBMIT/
+├── Project_Proposal_Etheys_Fashion_Feaster.docx
+├── README.md
+├── VALIDATION_REPORT.txt
+└── website/
+    ├── index.html
+    ├── about.html
+    ├── products.html
+    ├── enquiry.html
+    ├── contact.html
+    ├── sitemap.html
+    ├── css/
+    │   └── style.css
+    ├── images/
+    │   ├── logo.svg
+    │   ├── hero-fashion.jpg
+    │   ├── hero-fashion-450.jpg
+    │   ├── hero-fashion-900.jpg
+    │   ├── about-store.jpg
+    │   ├── about-store-450.jpg
+    │   ├── about-store-900.jpg
+    │   ├── women.jpg
+    │   ├── women-450.jpg
+    │   ├── women-900.jpg
+    │   ├── men.jpg
+    │   ├── men-450.jpg
+    │   ├── men-900.jpg
+    │   ├── children.jpg
+    │   ├── children-450.jpg
+    │   ├── children-900.jpg
+    │   ├── enquiry-fashion.jpg
+    │   ├── contact-store.jpg
+    │   ├── contact-store-450.jpg
+    │   └── contact-store-900.jpg
+    ├── wireframes/
+    └── docs/
+        ├── source-log.txt
+        └── changelog.txt
+```
+
+## Design system
+- **Primary ink:** `#101010`
+- **Gold accent:** `#d6a900`
+- **Dark gold:** `#b88d00`
+- **Cream background:** `#fbf8f0`
+- **White:** `#ffffff`
+- **Muted text:** `#6a6a6a`
+- **Border:** `#e9e3d4`
+- **Font:** Arial, Helvetica, sans-serif
+- **Main content width:** 1180px maximum
+- **Responsive breakpoints:** 900px and 620px
+
+## Enquiry form
+The enquiry form is semantic HTML and uses a `mailto:` action because this academic project is restricted to HTML and CSS. It prepares an enquiry in the user's email client; it does not claim to be a production server-side form.
+
+## Changelog
+See `website/docs/changelog.txt` for the detailed record of Part 1 feedback-related corrections and Part 2 implementation changes.
+
+## References
+1. MDN Web Docs. *CSS: Cascading Style Sheets*. https://developer.mozilla.org/en-US/docs/Web/CSS
+2. MDN Web Docs. *Using media queries*. https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_media_queries/Using_media_queries
+3. MDN Web Docs. *Responsive images*. https://developer.mozilla.org/en-US/docs/Web/HTML/Guides/Responsive_images
+4. MDN Web Docs. *HTML elements reference*. https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements
+5. W3C. *HTML Standard*. https://html.spec.whatwg.org/
+
+## GitHub requirement
+The rubric awards marks for multiple descriptive commits and a pushed remote repository. Those marks depend on the student's GitHub repository history and cannot be demonstrated by the website files alone. Suggested commit sequence is documented in `website/docs/changelog.txt`; after uploading/pushing, use descriptive messages such as:
+
+- `Improve HTML structure and accessibility`
+- `Add external CSS styling for all pages`
+- `Implement responsive layout and navigation`
+- `Fix local image paths and add responsive images`
+- `Update README changelog and references`
+
+## Academic note
+The business, locations, contact details and product prices are fictional/project content.
